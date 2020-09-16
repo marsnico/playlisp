@@ -1,0 +1,28 @@
+{
+  "name": "playlisp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "bin": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "tsc && node dist/app.js",
+    "build:node": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marsnico/playlisp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marsnico/playlisp/issues"
+  },
+  "homepage": "https://github.com/marsnico/playlisp#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
