@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "tsc && node dist/app.js",
-    "build:node": "tsc"
+    "build:node": "tsc",
+    "lint": "eslint . --ext .js,.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
   },
   "homepage": "https://github.com/marsnico/playlisp#readme",
   "devDependencies": {
+    "@types/node": "^14.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.1.2",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
