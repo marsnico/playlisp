@@ -117,7 +117,7 @@ var Lexer = /** @class */ (function () {
             var token = "";
             this.nextChar();
             //todo add escape char support
-            while (this.cc != '"' && this.cc != 0 && this.cc != '\r' && this.cc != '\n') {
+            while (this.cc != '"' && this.cc != '' && this.cc != '\r' && this.cc != '\n') {
                 token += this.cc;
                 this.nextChar();
             }

@@ -5,8 +5,8 @@ function main() {
     console.log("golisp v0.0.2 by nicolasxiao");
     console.log();
     var fileName = "./tests/base.scm";
-    if (process.argv.length > 1) {
-        fileName = process.argv[1];
+    if (process.argv.length > 2) {
+        fileName = process.argv[2];
     }
     module_1.RunModule(".", fileName);
     //nolisp.LoadWrap()
